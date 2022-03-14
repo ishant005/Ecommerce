@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="\productpage\product.css">
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+<body>
+    <div class="container">
+        <div class="nav-bar">
+         <div class="left-nav">
+             <div class="header-logo-container">
+              mesho
+             </div>
+             <div class="input-container">
+                 <input type="text" placeholder="Search items" class="input-inner-container">
+             </div>
+            </div>
+         <div class="right-nav">
+            <div class="user-btn">
+                <span class="material-icons">
+                    account_circle
+                    </span>
+                    <p>Profile</p>
+            </div>
+            <div class="favorite-btn">
+                    <span class="material-icons">
+                        favorite
+                    </span>
+                     <p>Wishlist</p>
+                    </div>
+            <div class="cart-btn">
+                <span class="material-icons">
+                    shopping_cart
+                    </span>
+                    <p>Cart</p>   
+            </div>
+         </div>
+        </div>
+        <div class="divider"></div>
+        <!-- this is for navbar and main content -->
+     <div class="content-container">
+            <!-- navabar -->
+            <div class="product-navbar">
+                <div class="product-navbar-container">
+              <div class="product-filter">
+                  <h3>Filters</h3>
+                  <h3>Clear</h3>
+              </div>
+              <div class="product-price">
+                 <h3>Price</h3>
+                 <div class="slidecontainer">
+                     <div class="field">
+                       <div class="value left">0</div> 
+                       <div class="value middle">50</div>
+                         <div class="value right">100</div>
+                     </div>
+                     <input type="range" min="1" max="100" value="50" class="slider" id="myRange"> 
+                     
+                 </div>
+              </div>
+              <div class="product-category">
+               <h3>Category</h3>
+               <div class="category-subcontainer">
+               <input type="checkbox" class="men-clothing" name="men-clothing" value="Men clothing">
+               <label for="men-clothing">Men clothing</label><br>
+               <input type="checkbox" class="women-clothing" name="men-clothing" value="Women clothing">
+               <label for="men-clothing">Women clothing</label><br>
+               </div>
+              </div>
+
+              <div class="product-rating">
+              
+               <h3>Rating</h3>
+               <div class="rating-subcontainer">
+               <input type="radio" class="rating">
+               <label for="rating">4 star and above</label><br>
+               <input type="radio" class="rating">
+               <label for="rating">3 star and above</label><br>
+               <input type="radio" class="rating">
+               <label for="rating">2 star and above</label><br>
+               <input type="radio" class="rating">
+               <label for="rating">1 star and above</label>
+            </div>
+            </div>
+            <div class="product-sortby">
+                <h3>Sort By</h3> 
+                <div class="sortby-subcontainer">
+                <input type="radio" class="sort-by">
+                <label for="rating">Price-High to Low</label><br>
+                <input type="radio" class="sort-by">
+                <label for="rating">Price-Low to High</label><br>
+            </div>
+            </div>
+            </div>
+            </div>
+            <!-- content aside navbar -->
+            <div class="product-content">
+                <div class="product-heading">
+                  <h2>Showing All Products</h2>  
+                </div>
+                <!-- <div class="product-picture"> -->
+                    <div class="card-in-row">
+                <div class="component">
+                    <div class="header">
+                        <div class="img-card">
+                            <img src="/assests/shoes.jpg" />
+                        </div>
+                        <div class="dismiss">
+                            <span class="material-icons">
+                                favorite_border
+                                </span>
+                        </div>
+                        <div class="badge-card">NEW</div>
+                        <div class="main-card-text">
+                            <div class="main-text">
+                                <h2>Nikemax Sneakers</h2>
+                            </div>
+                            <div class="main-description">
+                                <div class="price-tag">
+                                    Price: $126
+                                </div>
+                            </div>
+                            <div class="list">
+                                <button class="card-btn-primary">
+                                    WISHLIST
+                                </button>
+                                <button class="card-btn-secondary">
+                                    BUY
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="component">
+                    <div class="header">
+                        <div class="img-card">
+                            <img src="/assests/shoes.jpg" />
+                        </div>
+                        <div class="dismiss">
+                            <span class="material-icons">
+                                favorite_border
+                                </span>
+                        </div>
+                        <div class="badge-card">NEW</div>
+                        <div class="main-card-text">
+                            <div class="main-text">
+                                <h2>Nikemax Sneakers</h2>
+                            </div>
+                            <div class="main-description">
+                                <div class="price-tag">
+                                    Price: $126
+                                </div>
+                            </div>
+                            <div class="list">
+                                <button class="card-btn-primary">
+                                    WISHLIST
+                                </button>
+                                <button class="card-btn-secondary">
+                                    BUY
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="component">
+                    <div class="header">
+                        <div class="img-card">
+                            <img src="/assests/shoes.jpg" />
+                        </div>
+                        <div class="dismiss">
+                            <span class="material-icons">
+                                favorite_border
+                                </span>
+                        </div>
+                        <div class="badge-card">NEW</div>
+                        <div class="main-card-text">
+                            <div class="main-text">
+                                <h2>Nikemax Sneakers</h2>
+                            </div>
+                            <div class="main-description">
+                                <div class="price-tag">
+                                    Price: $126
+                                </div>
+                            </div>
+                            <div class="list">
+                                <button class="card-btn-primary">
+                                    WISHLIST
+                                </button>
+                                <button class="card-btn-secondary">
+                                    BUY
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="card-in-row">
+                    <div class="component">
+                        <div class="header">
+                            <div class="img-card">
+                                <img src="/assests/shoes.jpg" />
+                            </div>
+                            <div class="dismiss">
+                                <span class="material-icons">
+                                    favorite_border
+                                    </span>
+                            </div>
+                            <div class="badge-card">NEW</div>
+                            <div class="main-card-text">
+                                <div class="main-text">
+                                    <h2>Nikemax Sneakers</h2>
+                                </div>
+                                <div class="main-description">
+                                    <div class="price-tag">
+                                        Price: $126
+                                    </div>
+                                </div>
+                                <div class="list">
+                                    <button class="card-btn-primary">
+                                        WISHLIST
+                                    </button>
+                                    <button class="card-btn-secondary">
+                                        BUY
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="component">
+                        <div class="header">
+                            <div class="img-card">
+                                <img src="/assests/shoes.jpg" />
+                            </div>
+                            <div class="dismiss">
+                                <span class="material-icons">
+                                    favorite_border
+                                    </span>
+                            </div>
+                            <div class="badge-card">NEW</div>
+                            <div class="main-card-text">
+                                <div class="main-text">
+                                    <h2>Nikemax Sneakers</h2>
+                                </div>
+                                <div class="main-description">
+                                    <div class="price-tag">
+                                        Price: $126
+                                    </div>
+                                </div>
+                                <div class="list">
+                                    <button class="card-btn-primary">
+                                        WISHLIST
+                                    </button>
+                                    <button class="card-btn-secondary">
+                                        BUY
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="component">
+                        <div class="header">
+                            <div class="img-card">
+                                <img src="/assests/shoes.jpg" />
+                            </div>
+                            <div class="dismiss">
+                                <span class="material-icons">
+                                    favorite_border
+                                    </span>
+                            </div>
+                            <div class="badge-card">NEW</div>
+                            <div class="main-card-text">
+                                <div class="main-text">
+                                    <h2>Nikemax Sneakers</h2>
+                                </div>
+                                <div class="main-description">
+                                    <div class="price-tag">
+                                        Price: $126
+                                    </div>
+                                </div>
+                                <div class="list">
+                                    <button class="card-btn-primary">
+                                        WISHLIST
+                                    </button>
+                                    <button class="card-btn-secondary">
+                                        BUY
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+</body>
+<script></script>
+    
+</script>
+</html>
