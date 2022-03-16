@@ -1,0 +1,20 @@
+.main-text,.price-tag,.list{
+    text-align: center;
+}
+.wishlist-btn{
+    width: 13rem;
+    border-radius: 2px;
+    font-size: 1rem;
+}
+.wishlist-card-text{
+    position: relative;
+    top:-1rem;
+}
+.wishlist-container-heading{
+    text-align: center;
+}
+
+.row-component{
+    display: flex;
+    justify-content: center;
+}
