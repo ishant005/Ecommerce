@@ -15,6 +15,7 @@
 }
 .user-btn {
     color: var(--black-background);
+    text-decoration: none;
 }
 .favorite-list {
     color: var(--black-background);
@@ -153,6 +154,9 @@ li:hover {
 
     font-size: 1rem;
 }
+.card-btn:hover{
+    cursor: pointer;
+}
 .divider-container {
     margin: 4rem 13rem;
     display: flex;
@@ -206,3 +210,10 @@ li:hover {
     background-color: var(--text-overlay-background);
     border-radius: 4px;
 }
+ .anchor-tag{
+     text-decoration: none;
+     color: var(--black-background);
+} 
+.anchor-tag:hover{
+    color: var(--card-background);
+} 
